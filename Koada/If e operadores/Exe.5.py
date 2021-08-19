@@ -1,0 +1,16 @@
+a = int(input("Informe quantos centavos você possui: "))
+b = float(a/100)
+c = round(b,0)
+d = float(b/50)
+e = round(d,0)
+f = float(d/25)
+g = round(f,0)
+h = float(f/10)
+i = round(h,0)
+j = float(h/5)
+k = round(j,0)
+l = float(j/1)
+m = round(l,0)
+
+
+print(a,"é pode ser formado por", c,"moeda(s) de 1 real", e,"moeda(s) de 50 centavos",g,"moeda(s) de 25 centavos",i,"moeda(s) de 10 centavos",k,"moeda(s) de 5 centavos",m,"moeda(s) de 1 centavos.")

@@ -1,0 +1,6 @@
+a = input("Digite seu nome: ")
+b = int(input("Digite sua idade: "))
+c = float(input("Digite sua altura: "))
+d = float(input("Digite seu peso: "))
+e = input("Digite sua nacionalidade: ")
+print("Seu nome é", a ,",tem", b , "anos, mede", c ,"m, pesa", d , "Kg e é", e)
